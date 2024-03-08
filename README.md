@@ -1,8 +1,10 @@
 # 6T_SRAM
 
-* Static Random Access Memory, is a type of volatile memory used in digital electronic devices, to store data temporarily.
+* SRAM has become a major component in many VLSI Chips due to their large storage density and small access time. SRAM has become the topic of substantial research due to the rapid development of low-power, low-voltage memory design during recent years due to increased demand for notebooks, laptops, IC memory cards, and handheld communication devices.
+* 6T static random-access memory is a type of semiconductor memory that uses bistable latching circuitry to store each bit. The term static differentiates it from dynamic RAM which must be periodically refreshed. SRAM exhibits data remembrance but is still volatile in the conventional sense, that data is eventually lost when memory is not powered. 
 
-![image](https://github.com/ani171/6T_SRAM/assets/97838595/1e24d746-e4f6-4ec8-836f-d078c2b16be2)
+![image](https://github.com/ani171/6T_SRAM/assets/97838595/a859c0d6-9465-4757-a292-26e9422d3f0b)
+
 
 #### Read operation
 * To read data from the cell, the wordline (WL) connected to the access transistors is activated allowing access to the storage nodes.
@@ -13,3 +15,6 @@
 * To write data into the cell, the bitline (BL) and wordline (WL) are appropriately controlled.
 * For writing a logic high (1) into the cell, the BL is precharged to logic high (VDD) and the WL is brought to logic high (VDD) to enable the access transistors. This causes the cell to latch a logic high due to the feedback provided by the cross-coupled inverters.
 * For writing a logic low (0) into the cell, the BL is discharged to logic low (0) and the WL is brought to logic high (VDD).
+
+
+![image](https://github.com/ani171/6T_SRAM/assets/97838595/1e24d746-e4f6-4ec8-836f-d078c2b16be2)

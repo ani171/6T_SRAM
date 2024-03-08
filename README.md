@@ -5,6 +5,11 @@
 
 ![image](https://github.com/ani171/6T_SRAM/assets/97838595/a859c0d6-9465-4757-a292-26e9422d3f0b)
 
+The two basic requirements of an SRAM cell can be understood as follows:
+1. Read Stability: The data once read from an SRAM cell should remain stable and not be upset or altered by the read operation itself. *Read upset* refers to the unintentional alteration of data due to the process of reading. To avoid Read upset the Cell ratio β should be greater than 1
+``` Cell ratio, β ={ (W\L) pull-down transistors } / {(W\L) access transistor} ```
+2. Write Stability: When data needs to be written to an SRAM cell, the cell should reliably accept the new data and update its stored value without causing read upset or other unintended changes to neighboring cells or circuitry. This ensures that the SRAM cell maintains its stability and integrity during write operations, allowing for accurate storage and retrieval of data. This is ensured by maintaining the Pull up ratio, given by
+```Pull-up ratio, P.R ={ (W\L) pull up transistors } / {(W\L) access transistor } ```
 
 #### Read operation
 * To read data from the cell, the wordline (WL) connected to the access transistors is activated allowing access to the storage nodes.

@@ -21,5 +21,17 @@ The two basic requirements of an SRAM cell can be understood as follows:
 * For writing a logic high (1) into the cell, the BL is precharged to logic high (VDD) and the WL is brought to logic high (VDD) to enable the access transistors. This causes the cell to latch a logic high due to the feedback provided by the cross-coupled inverters.
 * For writing a logic low (0) into the cell, the BL is discharged to logic low (0) and the WL is brought to logic high (VDD).
 
+*With CR=1.25 and PR=0.85 using 180nm and width of pull up transistors(wp) fixed at 400nm we get*
+1. Width of access transistors Wa= 470nm
+2. Width of pulldown transistors Wn= 590nm
 
-![image](https://github.com/ani171/6T_SRAM/assets/97838595/1e24d746-e4f6-4ec8-836f-d078c2b16be2)
+#### WRITE '0' Operation
+
+
+#### WRITE '1' Operation
+
+
+#### READ '0' Operation
+
+
+#### READ '1' Operation

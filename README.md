@@ -26,7 +26,9 @@ The two basic requirements of an SRAM cell can be understood as follows:
 2. Width of pulldown transistors Wn= 590nm
 
 #### WRITE '0' Operation
-
+* The write driver makes BL=0V and BL'= VDD
+* Word line WL is made high
+* 
 
 #### WRITE '1' Operation
 

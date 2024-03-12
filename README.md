@@ -36,6 +36,9 @@ The two basic requirements of an SRAM cell can be understood as follows:
 
 
 #### WRITE '1' Operation
+* The write driver makes BL=VDD and BL'= 0
+* Word line WL is made high
+
 ![write1_ckt](https://github.com/ani171/6T_SRAM/assets/97838595/18d6f70d-b7cc-4bf7-9848-7b6cf3c87529)
 
 ![write1_grph](https://github.com/ani171/6T_SRAM/assets/97838595/537f7e2c-05f3-4729-a61a-8f6df186ffd8)

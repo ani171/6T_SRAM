@@ -25,15 +25,27 @@ The two basic requirements of an SRAM cell can be understood as follows:
 1. Width of access transistors Wa= 470nm
 2. Width of pulldown transistors Wn= 590nm
 
+![sram](https://github.com/ani171/6T_SRAM/assets/97838595/4ce4188a-5392-4469-80a5-e8e4996d6952)
+
 #### WRITE '0' Operation
 * The write driver makes BL=0V and BL'= VDD
 * Word line WL is made high
-* 
+
+![wrie0_ckt](https://github.com/ani171/6T_SRAM/assets/97838595/855d0ea6-2893-4296-9242-ccf049b7ef06)
+![write0_grp](https://github.com/ani171/6T_SRAM/assets/97838595/f8abf407-0b52-4b1d-a6df-5903cc974dfe)
+
 
 #### WRITE '1' Operation
+![write1_ckt](https://github.com/ani171/6T_SRAM/assets/97838595/18d6f70d-b7cc-4bf7-9848-7b6cf3c87529)
+
+![write1_grph](https://github.com/ani171/6T_SRAM/assets/97838595/537f7e2c-05f3-4729-a61a-8f6df186ffd8)
 
 
 #### READ '0' Operation
+![read0_ckt](https://github.com/ani171/6T_SRAM/assets/97838595/7b1c5840-49f5-4023-a3d2-1ab6a572aff4)
+![read0_grph](https://github.com/ani171/6T_SRAM/assets/97838595/c9602683-0414-4a32-83f5-e9ac9df390af)
 
 
 #### READ '1' Operation
+![read1_ckt](https://github.com/ani171/6T_SRAM/assets/97838595/709a0593-f62b-49c2-935d-a37b161d9cc2)
+![read1_grp](https://github.com/ani171/6T_SRAM/assets/97838595/e7b3e763-ff21-44a5-829c-ac2f5be668c4)

@@ -52,3 +52,10 @@ The two basic requirements of an SRAM cell can be understood as follows:
 #### READ '1' Operation
 ![read1_ckt](https://github.com/ani171/6T_SRAM/assets/97838595/709a0593-f62b-49c2-935d-a37b161d9cc2)
 ![read1_grp](https://github.com/ani171/6T_SRAM/assets/97838595/e7b3e763-ff21-44a5-829c-ac2f5be668c4)
+
+#### Precharge circuit
+* In Static Random Access Memory (SRAM), precharge circuits play a crucial role in preparing the bit lines before a read or write operation.
+* Precharge circuits ensure that the bit lines are at a known voltage (typically 𝑉𝐷𝐷) before a read or write operation. This helps in accurately sensing the small voltage difference during read operations.
+* Precharging the bit lines reduces power consumption and noise by minimizing the voltage swings during operations.
+![image](https://github.com/ani171/6T_SRAM/assets/97838595/b62e6504-ecbd-4786-ac4f-bb3a8d8e3f6e)
+![image](https://github.com/ani171/6T_SRAM/assets/97838595/b4573924-e385-4540-aa6e-8edcfed42d4b)
